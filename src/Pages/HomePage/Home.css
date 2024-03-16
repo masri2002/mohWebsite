@@ -1,0 +1,45 @@
+/* App.css */
+
+/* Style for the whole app */
+.App {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    size: 100vh;
+  }
+  
+  /* Style for the Navbar container */
+  .navbar-container {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Style for the HomePage container */
+  .homepage-container {
+    background-color: #f0f0f0;
+    
+    height: 100vh; /* Set height to 100% of viewport height */
+    overflow-y: auto; /* Add vertical scrollbar if content exceeds viewport height */
+  }
+  
+  /* Style for the About container */
+  .about-container {
+    border: solid 3px black;
+    background-color: #000000;
+    padding: 20px;
+  }
+  .art-container{
+    border: solid 3px white;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+  }
+  .asSeen-container{
+    border: solid 3px white;
+    padding: 100px;
+    background-color: rgb(0, 0, 0);
+  }
+  .Footer-container{
+    border:solid 1px rgb(0, 0, 0);
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+  }

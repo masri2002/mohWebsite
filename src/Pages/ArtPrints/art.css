@@ -1,0 +1,10 @@
+.art-continer{
+    width: 100%;
+    height: 800px;
+    padding: 100px;
+    background-image: url("./images/15.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

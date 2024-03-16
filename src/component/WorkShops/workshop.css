@@ -1,0 +1,44 @@
+    .Work {
+        background-color: black;
+        display: flex;
+        flex-direction: column; /* Align items in a column */
+        align-items: center;
+        justify-content: center;
+        height: 100%; /* Adjust the height as needed */
+        margin: auto; /* Center the .Work div horizontally */
+    }
+
+    .Images {
+        display: flex;
+        width: 100%;
+        height: 500px;
+        align-items: center;
+        justify-content: space-between; /* Add space between the images */
+    }
+
+    .img {
+        max-width: 40%; /* Ensure images don't exceed container width */
+        height: 65%;
+        margin: 0 50px; /* Add some margin between the images */
+        border:  solid 1px white;
+    }
+    .text{
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .button {
+        display: inline-block;
+        background-color: white;
+        color: red;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border: 2px solid red;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .button:hover {
+        background-color: red;
+        color: white;
+    }
